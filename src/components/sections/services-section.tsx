@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Программа
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Чему научатся дети</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Укулеле с нуля",
+              description: "Учимся держать инструмент, настраивать и играть первые мелодии — весело и без страха",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Базовые аккорды гитары",
+              description: "Am, Em, C, G, D — осваиваем самые важные аккорды и учимся переключаться между ними",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Ритм и бой",
+              description: "Простые ритмические паттерны, которые помогут играть любимые песни уже на первых занятиях",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Игра по нотам",
+              description: "Знакомство с нотной грамотой и табулатурами в игровой форме",
               direction: "bottom",
             },
           ].map((service, i) => (
